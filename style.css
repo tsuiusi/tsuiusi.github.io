@@ -1,23 +1,23 @@
-.toc {
+.table-of-contents {
 	width: 200px;
 	padding: 20px;
 }
 
-.toc ul {
+.table-of-contents ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.toc li {
+.table-of-contents li {
 	margin-bottom: 10px;
 }
 
-.toc a {
+.table-of-contents a {
 	text-decoration: none;
 	color; #333;
 }
 
-.toc a:hover {
+.table-of-contents a:hover {
 	text-decoration: underline;
 }
