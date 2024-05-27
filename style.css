@@ -1,23 +1,32 @@
-.table-of-contents {
-	width: 200px;
-	padding: 20px;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.table-of-contents ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+.content {
+  flex: 1;
+  padding: 20px;
 }
 
-.table-of-contents li {
-	margin-bottom: 10px;
+.sidebar {
+  width: 200px;
+  padding: 20px;
 }
 
-.table-of-contents a {
-	text-decoration: none;
-	color; #333;
+.navigation {
+  list-style-type: none;
+  padding: 0;
 }
 
-.table-of-contents a:hover {
-	text-decoration: underline;
+.navigation li {
+  margin-bottom: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
 }
