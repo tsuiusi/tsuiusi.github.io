@@ -5,12 +5,22 @@
 
 .content {
  	flex: 1;
-	padding: 0px;
 }
 
 .sidebar {
-	align: right;
+	text-align: right;
 	flex: 1;
 	display: block;
+	margin: 8px;
+}
+
+.sidebar a {
+	display: block;
 	margin-bottom: 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+.sidebar a:hover {
+	text-decoration: underline;
 }
