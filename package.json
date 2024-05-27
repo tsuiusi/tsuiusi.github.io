@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "marked": "^12.0.0"
+    "marked": "^12.0.2"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
