@@ -7,7 +7,6 @@
 .content {
  	flex: 1;
 	padding: 20px;
-	display: flex;
 	max-width: 42em;
 	justify-content: center;
 }
