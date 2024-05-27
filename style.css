@@ -5,9 +5,12 @@
 
 .content {
  	flex: 1;
+	padding: 0px;
 }
 
 .sidebar {
 	align: right;
 	flex: 1;
+	display: block;
+	margin-bottom: 10px;
 }
