@@ -1,32 +1,13 @@
 .container {
-  display: flex;
-  justify-content: space-between;
+  	display: flex;
+	justify-content: space-between;
 }
 
 .content {
-  flex: 1;
-  padding: 20px;
+ 	flex: 1;
 }
 
 .sidebar {
-  width: 200px;
-  padding: 20px;
-}
-
-.navigation {
-  list-style-type: none;
-  padding: 0;
-}
-
-.navigation li {
-  margin-bottom: 10px;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: #333;
-}
-
-.navigation a:hover {
-  text-decoration: underline;
+	align: right;
+	flex: 1;
 }
