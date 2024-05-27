@@ -15,12 +15,14 @@
 	flex: 1;
 	display: block;
 	padding: 20px;
+	margin-top: 0.67em;
 }
 
 .sidebar a {
 	display: block;
 	text-decoration: none;
 	color: #66BADE;
+	font-size: 16px;
 }
 
 .sidebar a:hover {
