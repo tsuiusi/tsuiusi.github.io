@@ -5,6 +5,5 @@
 * Add images, etc
 * Make the menu bar a constant
 
- * write to it easily
-* simple structure
-
+28/5/24 updates:
+* added google doc to writing and daily log 
