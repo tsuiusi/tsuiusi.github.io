@@ -99,7 +99,7 @@ h1 {
 }
 
 h3 {
-	animation: spinXY 1s linear infinite;
+	animation: spinXY 3s linear infinite;
 }
 
 @keyframes spinXY {
@@ -113,9 +113,9 @@ h3 {
 
 @keyframes spinZ {
 	from {
-		transform: rotateZ(0); 
+		transform: rotateZ(0deg) rotateY(0deg); 
 	}
 	to {
-		transform: rotateZ(360);
+		transform: rotateZ(360deg) rotateY(360deg);
 	}
 }
