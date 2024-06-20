@@ -1,8 +1,49 @@
+
+.container {
+  	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	height: 100%;
+}
+
+.content {
+ 	flex: 1;
+	padding: 20px;
+	max-width: 42em;
+	height: 100%;
+}
+
+.content2 {
+ 	flex: 1;
+	padding: 20px;
+	max-width: 100%;
+	width: 88em;
+	height: 100%;
+}
+.sidebar {
+	text-align: right;
+	flex: 1;
+	display: block;
+	padding: 20px;
+	margin-top: 0.67em;
+}
+
+.sidebar a {
+	display: block;
+	text-decoration: none;
+	color: #66BADE;
+	font-size: 16px;
+}
+
+.sidebar a:hover {
+	text-decoration: underline;
+}
+
 h1 {
     	text-align: center;
     	position: relative;
 	transform: rotate(-10deg);
-	animation: spin 5s linear infinite;
+	animation: spinXY 1s linear infinite;
 }
 
 .text {
@@ -57,51 +98,24 @@ h1 {
 		30px 30px 0 #802500;
 }
 
-.container {
-  	display: flex;
-	justify-content: space-between;
-	margin: 20px;
-	height: 100%;
+h3 {
+	animation: spinXY 1s linear infinite;
 }
 
-.content {
- 	flex: 1;
-	padding: 20px;
-	max-width: 42em;
-	height: 100%;
-}
-
-.content2 {
- 	flex: 1;
-	padding: 20px;
-	max-width: 100%;
-	width: 88em;
-	height: 100%;
-}
-.sidebar {
-	text-align: right;
-	flex: 1;
-	display: block;
-	padding: 20px;
-	margin-top: 0.67em;
-}
-
-.sidebar a {
-	display: block;
-	text-decoration: none;
-	color: #66BADE;
-	font-size: 16px;
-}
-
-.sidebar a:hover {
-	text-decoration: underline;
-}
-
-@keyframes spin {
+@keyframes spinXY {
 	from {
 		transform: rotateY(-10deg) rotateX(-10deg); /* Start rotation on Z-axis */
 	}
 	to {
 		transform: rotateY(350deg) rotateX(350deg); /* Rotate 360 degrees - 10 degrees to account for the initial rotation */
+	}
+}
+
+@keyframes spinZ {
+	from {
+		transform: rotateZ(0); 
+	}
+	to {
+		transform: rotateZ(360);
 	}
 }
