@@ -9,10 +9,10 @@ wiggly text flying around everywhere on the screen
  
 Amadeus kurisu on the site
 
-Rotating gif
-
 pick a song
 
 stare at the user
 
+terminal commands
 
+template for new pages
