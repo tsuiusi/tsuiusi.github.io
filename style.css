@@ -48,8 +48,14 @@ body, html {
 	position: absolute;
 	text-decoration: none;
 	padding: 3px;
+	color: #66BADE;
+	font-size: 24px;
 	border-radius: 3px;
 	pointer-events: auto;
+}
+
+.dvd-link:hover {
+	text-decoration: underline;
 }
 
 .container {
